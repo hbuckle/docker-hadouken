@@ -1,0 +1,1 @@
+docker -H localhost:2375 run -d --network=transparent --security-opt "credentialspec=file://hadouken.json" --mac-address 00-15-5d-51-47-a8 -h docker-hadouken --name hadouken hbuckle/hadouken
